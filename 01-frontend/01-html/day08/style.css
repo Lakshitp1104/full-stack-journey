@@ -1,0 +1,25 @@
+/* Background color to body + better font */
+body {
+  background-color: #f5f7fa;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;   /* centers your name */
+}
+
+/* Different color to headings */
+h1 {
+  color: #1e3a8a;       /* dark blue */
+  font-size: 34px;
+}
+
+/* Better readable text */
+p {
+  color: #374151;
+  font-size: 18px;
+}
+
+/* List styling */
+ul {
+  color: #111827;
+  font-size: 16px;
+  list-style-position: inside;
+}
