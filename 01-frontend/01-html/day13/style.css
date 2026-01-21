@@ -1,0 +1,94 @@
+/* ===== Base Styles ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== Header & Navigation ===== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+  background-color: #e5e7eb;
+}
+
+.site-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.site-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.primary-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+
+/* ===== Features Section ===== */
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 40px 20px;
+}
+
+.feature-card {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+
+  border: 1px solid #ccc;
+}
+
+/* ===== CTA Section ===== */
+.cta-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e5e7eb;
+}
+
+/* ===== Mobile Styles (≤768px) ===== */
+@media (max-width: 768px) {
+
+  .site-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .site-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+    text-align: center;
+  }
+}
