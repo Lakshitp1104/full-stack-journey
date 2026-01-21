@@ -1,0 +1,17 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* BOX MODEL */
+.box {
+  width: 300px;
+  height: 150px;
+
+  border: 3px solid #1e3a8a;
+
+  padding: 20px;
+  margin: 40px;
+
+  background-color: #ffffff;
+}
