@@ -1,0 +1,106 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== Page Layout ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ===== App Container ===== */
+.app {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Heading ===== */
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+/* ===== Input ===== */
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ===== Add Button ===== */
+#addBtn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== Task List ===== */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* ===== Task Item ===== */
+li {
+  background-color: #f1f5f9;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===== Delete Button ===== */
+li button {
+  background-color: #ef4444;
+  color: white;
+
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+
+  cursor: pointer;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: #dc2626;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+}
